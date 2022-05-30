@@ -4,6 +4,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Date;
+
 /**
  * Demo class
  *
@@ -22,7 +24,8 @@ public class HelloController {
 
     @GetMapping("/test2")
     public String test2(){
-        int i = 1 / 1;
+        Date date = null;
+        long time = date.getTime();
         return "hello test";
     }
 }
