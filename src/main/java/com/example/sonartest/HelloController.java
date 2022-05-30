@@ -19,4 +19,10 @@ public class HelloController {
     public String test(){
         return "hello test";
     }
+
+    @GetMapping("/test2")
+    public String test2(){
+        int i = 1 / 1;
+        return "hello test";
+    }
 }
